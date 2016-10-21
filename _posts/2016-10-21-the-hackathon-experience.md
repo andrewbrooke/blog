@@ -14,7 +14,7 @@ When it was time to start programming, the hardest part was dividing the work am
 
 After we actually got going, it was a pretty exciting experience. Since each of us worked off our own git branch, the tree view looked pretty neat.
 
-![Tree View]({{ site.url }}/img/screenshot.jpg)
+![Tree View]({{ site.url }}/img/tree.PNG)
 
 The non-coding aspects of the hackathon were arguably the best part. Tons of free food, coffee, t-shirts, you name it. We also got the opportunity to socialize with some of the other teams, and see what kind of cool stuff they were building.
 
