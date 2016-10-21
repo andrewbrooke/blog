@@ -22,4 +22,4 @@ Eventually, our two friends went home to sleep (lame), so it was just Caleb and 
 
 Sadly, we didn't recieve any awards for our brilliant idea, but we did get voted as one of the most popular projects, so that's a plus. Overall it was a really fun way to spend 24 hours, and I'll definitely do it again.
 
-Feel free to check out our project on Devpost: https://devpost.com/software/meme-market
+Feel free to check out our project on [Devpost.](https://devpost.com/software/meme-market)
