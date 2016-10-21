@@ -332,11 +332,17 @@ a.sidebar-nav-item:focus {
 }
 
 /* Meta data line below post title */
-.post-date, post-author {
+.post-date {
   display: block;
   margin-top: -.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
   color: #9a9a9a;
+}
+
+.post-author {
+  display: block;
+  margin-bottom: 1rem;
+  color: #303030;
 }
 
 /* Related posts */
