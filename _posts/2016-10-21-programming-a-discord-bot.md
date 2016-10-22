@@ -34,11 +34,13 @@ NOTE: NodeJS 6.0.0 or higher is required for use of discord.js, a library we wil
 
 Fire up the command line and enter the following
 
-```bash
+<pre>
+  <code class="bash">
 $ mkdir discord-bot
 $ cd discord-bot
 $ npm init
-```
+  </code>
+</pre>
 
 Here, you're going to enter the information from which npm will configure the `package.json` for your project. This file will contain some metadata about your project, as well as keep track of any dependencies we may need.
 
@@ -46,9 +48,11 @@ You can customize this as much as you want, but if you just press `return` a few
 
 For this project, we will be using [discord.js](https://github.com/hydrabolt/discord.js/), a library that will allow us to interact with the Discord API directly from NodeJS! To install this dependency to your project (and save it in `package.json`), run the following command
 
-```bash
+<pre>
+  <code class="bash">
 $ npm install --save discord.js --production --no-optional
-```
+  </code>
+</pre>
 
 NOTE: This build does not include support for voice connections, the following command will install the dependency with support for voice (`npm install --save discord.js --production`)
 
@@ -60,7 +64,8 @@ First off, let's import the discord.js module and configure the application that
 
 #### index.js
 
-```javascript
+<pre>
+  <code class="javascript">
 // Import the discord.js module
 const discord = require('discord.js')
 
@@ -69,7 +74,8 @@ const bot = new Discord.Client();
 
 // Token for your bot, located in the Discord application console - https://discordapp.com/developers/applications/me/
 const token = 'YOUR-TOKEN-HERE'
-```
+  </code>
+</pre>
 
 The next thing we need to do is configure some events for the bot. When we send a message containing a certain keyboard to the server, we need the bot to respond. For simplicity, let's make it so if the message begins with `!`, our bot will respond to the user.
 
@@ -77,7 +83,8 @@ So, a message to the bot might look like this: `!Hello there bot`
 
 Everything after the exclamation point is what we want to reverse and send back, so the response would look like this: `tob ereht olleH`
 
-```javascript
+<pre>
+  <code class="javascript">
 // Gets called when our bot is successfully logged in and connected
 bot.on('ready', () => {
 	console.log('Hello World!');
@@ -106,13 +113,16 @@ bot.on('message', message => {
 		message.reply(reversed);
 	}
 });
-```
+  </code>
+</pre>
 
 Thats's it for the meat of the code. The only thing remaining is to tell our bot to login.
 
-```javascript
+<pre>
+  <code class="javascript">
 bot.login(token);
-```
+  </code>
+</pre>
 
 ### Testing the Bot
 
@@ -130,10 +140,11 @@ Once you pick a server, you can open up the Discord client and see that your bot
 
 There's just one last step before we can use our bot, we need to run our Node project. To do this, simply return to the command line and run the following command
 
-
-```bash
+<pre>
+  <code class="bash">
 $ node index
-```
+  </code>
+</pre>
 
 If all is well and good, you should see a message appear in your console, and the bot will become active on Discord! Now, let's try out the functionality.
 
