@@ -46,7 +46,9 @@ Here, you're going to enter the information from which npm will configure the `p
 
 You can customize this as much as you want, but if you just press `return` a few times you'll be good to go.
 
-For this project, we will be using [discord.js](https://github.com/hydrabolt/discord.js/), a library that will allow us to interact with the Discord API directly from NodeJS! To install this dependency to your project (and save it in `package.json`), run the following command
+For this project, we will be using [discord.js](https://github.com/hydrabolt/discord.js/), a library that will allow us to interact with the Discord API directly from NodeJS.
+
+To install this dependency to your project (and save it in `package.json`), run the following command
 
 <pre>
   <code class="bash">
@@ -63,7 +65,6 @@ Open up the project directory in your favorite text editor, and create a new fil
 First off, let's import the discord.js module and configure the application that we created earlier.
 
 #### index.js
-
 <pre>
   <code class="javascript">
 // Import the discord.js module
@@ -83,6 +84,7 @@ So, a message to the bot might look like this: `!Hello there bot`
 
 Everything after the exclamation point is what we want to reverse and send back, so the response would look like this: `tob ereht olleH`
 
+#### index.js
 <pre>
   <code class="javascript">
 // Gets called when our bot is successfully logged in and connected

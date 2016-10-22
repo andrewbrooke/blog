@@ -161,9 +161,14 @@ code {
 }
 pre {
   display: block;
+/*
   margin-top: 0;
   margin-bottom: 1rem;
   padding: 1rem;
+*/
+  margin-top: -1rem;
+  margin-bottom: 0;
+  padding: 0;
   font-size: .8rem;
   line-height: 1.4;
   white-space: pre;
