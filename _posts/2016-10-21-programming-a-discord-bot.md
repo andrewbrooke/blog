@@ -16,13 +16,13 @@ First things first, you'll need to head on over to [My Applications](https://dis
 
 Go ahead an click on the "New Application" button to create a new Discord app.
 
-![New App]({{ site.url }}/Discord/new_app.PNG)
+![New App]({{ site.url }}/img/Discord/new_app.PNG)
 
 Now, give your app a name and optionally a description and icon. Our app is going to simply be called "reverser-bot", but feel free to pick anything you like. Then, hit "Create Application."
 
 On the next page, you need need to click on the "Create a Bot User" button. This is what is going to actually be interacting with the users in your Discord server.
 
-![Create a Bot User]({{ site.url }}/Discord/bot.PNG)
+![Create a Bot User]({{ site.url }}/img/Discord/bot.PNG)
 
 NOTE: You'll need both your app's client ID and this bot's Token later on in the tutorial, so make note of them now
 
@@ -122,11 +122,11 @@ Remember that client ID I mentioned earlier? We're going to need it now. To add 
 
 You'll be asked to select a server for the bot to join, so create one on Discord for testing if you need to. (It's free!)
 
-![Authorizing the Bot]({{ site.url }}/Discord/auth.PNG)
+![Authorizing the Bot]({{ site.url }}/img/Discord/auth.PNG)
 
 Once you pick a server, you can open up the Discord client and see that your bot has been added to the server!
 
-![It's in]({{ site.url }}/Discord/users.PNG)
+![It's in]({{ site.url }}/img/Discord/users.PNG)
 
 There's just one last step before we can use our bot, we need to run our Node project. To do this, simply return to the command line and run the following command
 
@@ -139,7 +139,7 @@ If all is well and good, you should see a message appear in your console, and th
 
 Send a message beginning with `!` in the server, and see what happens
 
-![Chat]({{ site.url }}/Discord/chat.PNG)
+![Chat]({{ site.url }}/img/Discord/chat.PNG)
 
 Success!
 
