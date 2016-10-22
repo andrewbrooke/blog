@@ -14,8 +14,18 @@ title: Home
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
   	<span class="post-author">By: {{ post.author }}</span>
+	  
+	{% if post.excerpt %}
+	  {{ post.excerpt }}
+	{% endif %}
+	  
+    <h3 class="post-more">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        Read More
+      </a>
+    </h3>
 
-    {{ post.content }}
+<!--    {{ post.content }}-->
   </div>
   {% endfor %}
 </div>
