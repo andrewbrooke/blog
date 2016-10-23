@@ -12,8 +12,12 @@ title: Home
       </a>
     </h1>
 
+<!--
     <span class="post-date">{{ post.date | date_to_string }}</span>
   	<span class="post-author">By: {{ post.author }}</span>
+-->
+    
+    <span class="post-date">Posted by {{ post.author }} on {{ post.date | date_to_string }}</span>
 	  
 	{% if post.excerpt %}
 	  {{ post.excerpt }}

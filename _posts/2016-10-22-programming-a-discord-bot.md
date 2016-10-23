@@ -9,7 +9,7 @@ If you're unfamiliar with [Discord](https://discordapp.com/), it's a text & voic
 
 In this tutorial, we will be using NodeJS and discord.js to write a simple bot for Discord.
 
-## Creating a Discord app
+# Creating a Discord app
 
 So, what exactly is a Discord Bot? Well, it's basically a robot user that you add to a server and bend to do your will. You could use it for all sorts of things, but in this tutorial we'll be using it to reverse whatever message the user sends to it. Riveting stuff.
 
@@ -27,7 +27,7 @@ On the next page, you need need to click on the "Create a Bot User" button. This
 
 NOTE: You'll need both your app's client ID and this bot's Token later on in the tutorial, so make note of them now
 
-## Setting up the NodeJS project
+# Setting up the NodeJS project
 
 If you don't already have it, go ahead and install [NodeJS](https://nodejs.org).
 
@@ -59,7 +59,7 @@ $ npm install --save discord.js --production --no-optional
 
 NOTE: This build does not include support for voice connections, the following command will install the dependency with support for voice (`npm install --save discord.js --production`)
 
-## Coding the Bot
+# Coding the Bot
 
 Open up the project directory in your favorite text editor, and create a new file at the root level: `index.js`. This is where we're going to stick all the code for Mr. Bot.
 
@@ -127,7 +127,7 @@ bot.login(token);
   </code>
 </pre>
 
-### Testing the Bot
+# Testing the Bot
 
 Remember that client ID I mentioned earlier? We're going to need it now. To add the bot to your server, visit the following URL, where APP_ID is replaced by your Client ID.
 
@@ -157,7 +157,7 @@ Send a message beginning with `!` in the server, and see what happens
 
 Success!
 
-### Final Thoughts
+# Final Thoughts
 
 That does it for this tutorial, I hope you enjoyed following along. Bots are a nice way to spice up any Discord server, and can be expanded to do pretty much anything you can think of.
 
