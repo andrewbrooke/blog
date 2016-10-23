@@ -7,6 +7,9 @@ layout: default
   <span class="post-date">{{ page.date | date_to_string }}</span>
   <span class="post-author">By: {{ page.author }}</span>
   {{ content }}
+  
+  {% tweet_button %} {% gplus_one_button %}
+  {% disqus_comments %} 
 </div>
 
 <div class="related">

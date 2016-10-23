@@ -2,6 +2,10 @@
 layout: post
 title: Programming a Discord Bot with NodeJS
 author: Andrew Brooke
+twitter_hashtags:
+ - Syntonic
+ - Discord
+ - NodeJS
 ---
 
 If you're unfamiliar with [Discord](https://discordapp.com/), it's a text & voice chat application that targets gamers. You can create your own servers, channels within those servers, permissions, etc. And best of all, you can hack around on their [API](https://discordapp.com/developers/docs/intro) to make your own bot to say, tell you the weather, or show you pictures of cats.
