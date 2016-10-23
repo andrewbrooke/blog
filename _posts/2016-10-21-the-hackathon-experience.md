@@ -2,6 +2,7 @@
 layout: post
 title: The Hackathon Experience
 author: Andrew Brooke
+comments: true
 ---
 
 A couple of weeks ago, Caleb and I had the experience of participating in our first hackathon, Revolution UC, hosted by the University of Cincinnati's chapter of ACM. 
