@@ -4,14 +4,27 @@
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
-    <p>{{ site.description }}</p>
+  <img src="https://syntonic.io/img/Syntonic-Logo.png" class="sidebar-logo">
+<!--  <img src="{{ site.url }}/img/logo.png" class="sidebar-logo">-->
+  <div class="sidebar-header">
+    <p>Syntonic.io</p>
+  </div>
+  <div class="sidebar-subheader">
+    <p>Developer Blog</p>
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Blog</a>
-    <a class="sidebar-nav-item" href="{{ site.author.url }}/">Home</a>
-
+    <br>
+    <span class="sidebar-nav-header">Blog</span>
+    
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+    
+    <br>
+    <span class="sidebar-nav-header">Our Stuff</span>
+    <a class="sidebar-nav-item" href="{{ site.author.url }}/">About</a>
+    <a class="sidebar-nav-item" href="{{ site.author.github }}/">Github</a>
+    
+    
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
       `layout: page` in the front-matter. See readme for usage.
@@ -35,9 +48,11 @@
 -->
   </nav>
 
+<!--
   <div class="sidebar-item">
     <p>
       &copy; {{ site.time | date: '%Y' }}. All rights reserved.
     </p>
   </div>
+-->
 </div>

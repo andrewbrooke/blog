@@ -33,6 +33,11 @@
     src: url('../font/Montserrat-Light.otf');
 }
 
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../font/Montserrat-Regular.otf');
+}
+
 /*
  * Global resets
  *
@@ -579,4 +584,35 @@ a.pagination-item:hover {
 /* Only one tweak for a reverse layout */
 .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
   box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
+}
+
+/* CUSTOM CSS */
+
+.sidebar-logo {
+  width: 50%;
+}
+.sidebar-header, .sidebar-subheader {
+	color: white;
+	font-size: 2.7em;
+	text-align: center;
+	font-family: 'Montserrat-Bold', sans-serif;
+}
+.sidebar-subheader {
+	font-size: 2em;
+}
+.sidebar-header p, .sidebar-subheader p {
+  margin-bottom: 0;
+}
+.sidebar-nav-header {
+  font-family: 'Montserrat-Bold', sans-serif;
+  margin-left: 1rem;
+  color: white;
+  margin-top: 2rem;
+}
+
+.masthead-title {
+  font-family: 'Montserrat-Bold', sans-serif;
+}
+.post-title {
+  font-family: 'Montserrat-Bold', sans-serif;
 }

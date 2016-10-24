@@ -19,6 +19,7 @@ author:
   name:              Syntonic
   url:               https://syntonic.io
   email:             ideas@syntonic.io
+  github:            https://github.com/SyntonicApps
 
 # Custom vars
 version:             1.0.0
