@@ -5,7 +5,7 @@ author: Andrew Brooke
 comments: true
 ---
 
-I'm basically half asleep as I type this out, just returning from our second hackathon experience, at [Hack OHI/O 2016](http://hack.osu.edu/2016/). This was an incredible experience, and proper credit has to go out to the sponsors who make it possible for us 750+ student hackers to attend.
+I'm basically half asleep as I type this out, just returning from our second hackathon experience at [Hack OHI/O 2016](http://hack.osu.edu/2016/). This was an incredible experience, and proper credit has to go out to the sponsors who make it possible for us 750+ student hackers to attend.
 
 Joe, Caleb, and I (the three founding members of Syntonic) went into this thing with a relatively simple idea, and I'm proud of how it turned out. It's an app called FireStream, and it basically allows you to host and build socially-based community music playlists known as Parties. Whether it be at a real party or just when you're hanging out with friends, it's always a hassle to juggle who has control of the aux cord. This is a problem that I've personally faced countless times, and the aim of our app is to help alleviate the difficulty from those scenarios.
 
