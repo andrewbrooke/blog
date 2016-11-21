@@ -11,15 +11,21 @@ Joe, Caleb, and I (the three founding members of Syntonic) went into this thing 
 
 Users with a Spotify premium account (and hopefully other music streaming services in the future) will be able to "host" a new party, and build up the initial playlist, either from one of their preexisting Spotify playlists, or by using what we call the "Smart Builder."
 
-![Smart Builder]({{ site.url }}/img/FireStream/smart_builder.png)
+<p class="mobile_screenshot">
+	<img src="{{ site.url }}/img/FireStream/smart_builder.png" alt="Smart Builder">
+</p>
 
 This allows the user to enter a number of criteria for what their playlist should sound like, including up to five options mixing and matching between Genre, Artist, and Title. All of these components will have an effect on the resulting playlist.
 
-![Smart Builder]({{ site.url }}/img/FireStream/party.png)
+<p class="mobile_screenshot">
+	<img src="{{ site.url }}/img/FireStream/party.png" alt="Smart Builder">
+</p>
 
 After starting a party, you can start to invite your friends, who can then request to add songs (without the need for any streaming service account of their own) through the search feature. Hosts are given full control over the music, like a normal music player app, and all of party goers are kept in sync, seeing the same state of the party on their own screen.
 
-![Smart Builder]({{ site.url }}/img/FireStream/search.png)
+<p class="mobile_screenshot">
+	<img src="{{ site.url }}/img/FireStream/search.png" alt="Smart Builder">
+</p>
 
 There are a lot of other features that we are hoping to add in the relatively near future, so you can expect some updates from us on this project soon.
 

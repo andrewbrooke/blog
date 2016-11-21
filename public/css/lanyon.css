@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
   .container {
     /* DEFAULT */
 /*    max-width: 38rem;*/
-    
+
     max-width: 42rem;
   }
 }
@@ -619,4 +619,13 @@ a.pagination-item:hover {
 .post-more {
 	margin-top: 0;
 	font-size: 1em;
+}
+p.mobile_screenshot img {
+    max-width: 50%;
+    transition: .5s all;
+}
+@media (max-width: 32rem) {
+    p.mobile_screenshot img {
+        max-width: 80%;
+    }
 }
