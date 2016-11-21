@@ -616,3 +616,7 @@ a.pagination-item:hover {
 .post-title {
   font-family: 'Montserrat-Bold', sans-serif;
 }
+.post-more {
+	margin-top: 0;
+	font-size: 1em;
+}
