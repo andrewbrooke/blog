@@ -29,6 +29,6 @@ After starting a party, you can start to invite your friends, who can then reque
 
 There are a lot of other features that we are hoping to add in the relatively near future, so you can expect some updates from us on this project soon.
 
-Aside from the actual coding, the Hack OHI/O was once again an incredible experience. We got the chance to meet a lot of people from different companies and schools and learn what other people were making. The food we were served was also pretty darn good, so props to the Ohio Union for hooking the hungry coders up.
+Aside from the actual coding, Hack OHI/O was once again an incredible experience. We got the chance to meet a lot of people from different companies and schools and learn what other people were making. The food we were served was also pretty darn good, so props to the Ohio Union for hooking the hungry coders up.
 
 As an added bonus, our team scored in the Top 10 teams, winning the category for Best Teamwork. I'm so glad that we were able to complete most of the ideas our vision detailed, especially in under 24 hours. I really enjoyed working on the project and am excited to see where it can grow from here. Hackathons are awesome, and I can't overstate how much I think you should attend one if you get the opportunity. Thanks Caleb, Joe, and everyone that helped HackOHI/O be what it was.
