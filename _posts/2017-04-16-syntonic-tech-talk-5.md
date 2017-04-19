@@ -3,11 +3,12 @@ layout: post
 title: Syntonic Tech Talk Episode 5 - Firebase Cloud Functions
 author: Andrew Brooke
 comments: true
+github_repo: SyntonicApps/firebase-cloud-func-example
 ---
 
 It's been a while, but the fifth episode of our podcast is [available now!](https://www.youtube.com/watch?v=_fz9eCTE--g)
 
-Feel free to follow along with our Firebase Cloud Functions code demo here: https://github.com/SyntonicApps/firebase-cloud-func-example
+Feel free to follow along with our Firebase Cloud Functions code demo here: [https://github.com/SyntonicApps/firebase-cloud-func-example](https://github.com/SyntonicApps/firebase-cloud-func-example)
 
 ## Intro to Firebase Cloud Functions
 
