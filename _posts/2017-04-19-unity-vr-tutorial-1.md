@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Unity VR Tutorial #1
+title: Unity VR Tutorial 1 - Intro / UI
 author: Andrew Brooke
 comments: true
 github_repo: SyntonicApps/unity-vrtk-examples

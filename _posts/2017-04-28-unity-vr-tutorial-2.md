@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Unity VR Tutorial #2
+title: Unity VR Tutorial 2 - Touchpad Input
 author: Andrew Brooke
 comments: true
 github_repo: SyntonicApps/unity-vrtk-examples
