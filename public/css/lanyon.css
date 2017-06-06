@@ -629,3 +629,6 @@ p.mobile_screenshot img {
         max-width: 80%;
     }
 }
+.masthead {
+    border-bottom: 0px;
+}
